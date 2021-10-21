@@ -1,0 +1,39 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/background.png); /*propriedade para acessar a imagem que está em outra pasta*/
+  background-size: cover; /*propriedade para a imagem de fundo cobrir a tela*/
+  background-position: right top; /*propriedade para fixar a imagem na direção desejada*/
+  background-color: #0007;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  /*padding: 0px 80px; essa propriedade funciona para todos os lados*/
+}
+
+.logo {
+  background-color: lightsalmon;
+}
+
+.menu {
+  background-color: lightskyblue;
+}
+
+main {
+  background-color: cadetblue;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: lightpink;
+  height: 70px;
+}
