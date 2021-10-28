@@ -1,0 +1,59 @@
+header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  /*padding: 0px 80px; essa propriedade funciona para todos os lados*/
+  background-color: #0005;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.dropdown-submenu {
+  background-color: #000a;
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  width: 150px;
+  height: 171px;
+}
+
+.dropdown-submenu a {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.dropdown-submenu li:hover {
+  background-color: #e509147e;
+}
+
+.menu a {
+  text-decoration: none; /*remove o sublinhado do texto*/
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  transition: color 0.5s; /*velocidade da transição de cor ao passar o mouse*/
+}
+
+/*.menu a:hover {*/
+/*propriedade para mudar a cor da fonte ao passar o mouse*/
+.dropdown-menu > li:hover > a {
+  color: #e50914;
+}
+
+.dropdown-menu > li:hover .dropdown-submenu {
+  /*com essa linha, o dropdown submenu só irá aparecer quando o mouse estiver em cima de Lendas */
+  display: flex;
+}

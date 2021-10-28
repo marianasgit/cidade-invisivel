@@ -8,32 +8,5 @@ body {
   background-blend-mode: darken;
   display: flex;
   flex-direction: column;
-}
-
-header {
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 80px;
-  padding-right: 80px;
-  /*padding: 0px 80px; essa propriedade funciona para todos os lados*/
-}
-
-.logo {
-  background-color: lightsalmon;
-}
-
-.menu {
-  background-color: lightskyblue;
-}
-
-main {
-  background-color: cadetblue;
-  flex-grow: 1;
-}
-
-footer {
-  background-color: lightpink;
-  height: 70px;
+  transition: all 0.5s;
 }
