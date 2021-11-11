@@ -13,34 +13,46 @@ main {
 }
 
 main h2 {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 100;
 }
 
 main h1 {
-  font-size: 6rem;
+  font-size: 7.5rem;
   font-weight: 600;
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: transparent;
+  text-shadow: inset #fff;
 }
 
 main p {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   width: 900px;
-  font-weight: 200;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 main .container-lenda {
   display: flex;
-  height: 290px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
   width: 470px;
+  gap: 15px;
 }
 
 .container-lenda h2 {
-  display: inline;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  color: #b70710;
 }
 
-.container-lenda div {
-  transform: rotate(270deg);
-  height: 50px;
-  padding-bottom: 186px;
-  width: 110px;
+.container-items {
+  display: flex;
+  gap: 50px;
+}
+
+.border-red {
+  border-right: 5px solid red;
+  gap: 50px;
 }
