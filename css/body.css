@@ -1,11 +1,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/background.png); /*propriedade para acessar a imagem que está em outra pasta*/
   background-size: cover; /*propriedade para a imagem de fundo cobrir a tela*/
   background-position: right top; /*propriedade para fixar a imagem na direção desejada*/
-  background-color: #0007;
-  background-blend-mode: darken;
   display: flex;
   flex-direction: column;
   transition: all 0.5s;
