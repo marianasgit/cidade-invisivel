@@ -1,0 +1,71 @@
+body {
+  background-image: url(../../img/background-sobre.png);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 0 80px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  width: 845px;
+  gap: 20px;
+}
+
+main h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+main p {
+  font-size: 1.4rem;
+  width: 900px;
+  font-style: italic;
+  gap: 15px;
+}
+
+main div {
+  display: flex;
+  height: 50px;
+  justify-content: left;
+  align-items: center;
+  gap: 64px;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+.linkedin {
+  background-color: #0a66c2;
+}
+
+.github {
+  background-color: #000;
+}
+
+.agua {
+  width: 100vw;
+  position: absolute;
+  opacity: 0.1;
+  bottom: 0;
+  right: 0;
+  filter: brightness(50%);
+  z-index: -1;
+  animation: movimento 40s linear infinite; /*tempo de animação*/
+}
