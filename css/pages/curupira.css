@@ -54,6 +54,7 @@ main .container-lenda {
 }
 
 .border-red {
-  border-right: 5px solid red;
-  gap: 50px;
+  height: 50px;
+  width: 5px;
+  background-color: #b70710;
 }
